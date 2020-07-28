@@ -23,3 +23,32 @@ nav{
   body{
       background-image: url("http://www.alawiboutiquehotel.com/images/carosello/slide5.jpg");
   }
+  #contact{
+      float: center;
+      text-align: center;
+      text-transform: none;
+      color: hsl(192, 100%, 50%);
+  }
+  #booking{
+      text-decoration: cyan;
+      padding: 0.2%;
+      
+  }
+  #booking>img{
+      height: 200px;
+      position: relative;
+      border: 3px solid green;
+  }
+  #booking>h2{
+    color: lawngreen;
+  }
+  #about{
+      padding-bottom: inherit;
+      float: center;
+      text-decoration: darkgreen;
+      text-transform: none;
+      
+}
+#about>h2{
+    color: darkgreen;
+}
