@@ -26,9 +26,6 @@ nav{
     background-color: rgba(107, 93, 84, 0.678);
     color: rgba(24, 223, 24, 0.702)
   }
-  body{
-      background-image: url("");
-  }
   #contact{
       float: center;
       text-align: center;
