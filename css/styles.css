@@ -21,7 +21,7 @@ nav{
     color: blue;
     width: 25%;
   }
-  ul>li>a:hover{
+  nav>ul>li>a:hover{
     box-shadow: 0 0 0 0.625em rgba(0, 0, 0 , 0.1), insert 0 0 0.625em rgba(255, 255, 255, 0.6);
     background-color: rgba(107, 93, 84, 0.678);
     color: rgba(24, 223, 24, 0.702)
@@ -30,6 +30,7 @@ nav{
       float: center;
       text-align: center;
       text-transform: none;
+      height: 40%;
       
   }
   #booking{
@@ -41,7 +42,6 @@ nav{
   #booking>img{
       height: 300px;
       width: 100%;
-      height: 30%;
       position: relative;
       background-repeat: no-repeat;
       border: 3px solid rgba(66, 228, 17, 0.047);
@@ -58,7 +58,7 @@ nav{
     bottom: 0;
     width: 100%;
     height: 7.5%;
-    background-color: #cfbaba;
+    background-color: rgb(231, 200, 200);
     color: white;
     text-align: center;
   }
@@ -80,10 +80,11 @@ nav{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(138, 14, 14, 0.5); 
-    z-index: 2; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1; 
     cursor: pointer; 
   }
   h2{
     color: coral;
+    text-align: center;
   }
